@@ -1,0 +1,34 @@
+{% set version = "6.5" %}
+
+package:
+  name: quantum-espresso
+  version: {{ version }}
+
+about:
+  summary: "Quantum Espresso for plane-wave-based calculations"
+
+source:
+  - path: ../
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - make
+    - {{ compiler('c') }}
+    - {{ compiler('fortran') }}
+    - mkl >=2019
+    - mkl-include >=2019
+    - hdf5 >=1.10.6
+    - openmp
+    - openmpi
+  host:
+    - mkl >=2019
+    - openmp
+    - openmpi
+  run:
+    - mkl >=2019
+    - openmp
+    - openmpi
+
