@@ -4,7 +4,7 @@
 ## Compile using the provided HPC environments (not tested)
 HPC systems usually provide an interface to configure your environment (c.f.
 environment variables
-[link 1](https://www.journaldev.com/30868/linux-environment-variables#:~:text=7%20Conclusion-,Introduction,new%20shell%20session%20is%20created.)
+[journaldev](https://www.journaldev.com/30868/linux-environment-variables#:~:text=7%20Conclusion-,Introduction,new%20shell%20session%20is%20created.)
 and [arch wiki](https://wiki.archlinux.org/index.php/environment_variables)).
 In Caltech's HPC, this system is called
 [modules](https://modules.readthedocs.io/en/latest/module.html) and allows you
